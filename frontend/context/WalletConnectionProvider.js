@@ -4,7 +4,7 @@ import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets'
 import { useMemo } from 'react'
 
 const WalletConnectionProvider = ({ children }) => {
-    const endpoint = useMemo(() => 'https://api.devnet.solana.com', [])
+    const endpoint = useMemo(() => 'https://flashy-fragrant-model.solana-devnet.quiknode.pro/7e5b1f0b85d33518dc3fcb855358fdc7af14ca27/', [])
 
     const wallets = useMemo(() => [new PhantomWalletAdapter()], [])
 
